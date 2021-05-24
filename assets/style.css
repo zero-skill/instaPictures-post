@@ -1,16 +1,18 @@
 /*le damos un fondo al body*/
 body{
-    background-color: #bdbdbd;
+    background-color: #000;
 }
 /*definimos el ancho del post ,un color de fondo y lo centramos*/
 .post{
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     background-color: white;
 }
 /*estilos del post header*/
 .post-header{
     display: inline-flex;
+    padding: 12px;
+    
 }
 .post-profile-username{
     margin-left: 8px;
@@ -20,16 +22,31 @@ body{
     height: 30px;
     border-radius: 60px;
 }
-.post-header:last-child{
-    justify-content: flex-end;
+.post-options{
+    margin-left: 370px;
+    margin-top: 10px;
 }
+
 /*estilos de post actions*/
 .post-actions{
     display: inline-flex;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 .post-actions div i{
     margin: 0 5px;
 }
-*{
-    border: red solid 1px;
+.post-actions div:last-child{ 
+    margin-left: 370px;
 }
+.post-liked{
+    margin: 20px auto 0px auto;
+    padding-left: 15px;
+}
+.post-description{
+    text-align: justify;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
