@@ -1,0 +1,35 @@
+/*le damos un fondo al body*/
+body{
+    background-color: #bdbdbd;
+}
+/*definimos el ancho del post ,un color de fondo y lo centramos*/
+.post{
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+/*estilos del post header*/
+.post-header{
+    display: inline-flex;
+}
+.post-profile-username{
+    margin-left: 8px;
+}
+.post-profile-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+.post-header:last-child{
+    justify-content: flex-end;
+}
+/*estilos de post actions*/
+.post-actions{
+    display: inline-flex;
+}
+.post-actions div i{
+    margin: 0 5px;
+}
+*{
+    border: red solid 1px;
+}
